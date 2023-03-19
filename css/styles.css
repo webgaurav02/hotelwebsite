@@ -27,6 +27,8 @@ body{
   background-image: url("../images/Home.jpg");
   background-size: cover;
   padding: 1% 7% 11%;
+  height: 100vh;
+  width: 100vw;
 }
 .navbar-brand{
   font-size: 2.5rem;
@@ -78,6 +80,7 @@ h5.head{
   background-color: black;
   background-size: cover;
   padding: 0;
+  width: 100vw;
 }
 .fire{
   background-image: url(../images/Fire.jpg);
@@ -124,16 +127,43 @@ h5.head{
     line-height: 0.5;
     background-color: rgba(0, 0, 0, 0.192);
   }
+  .navbar{
+    margin-top: 7%;
+  }
+  .navbar-brand{
+    font-size: 4rem;
+  }
+  .nav-item {
+    font-size: 2rem;
+    margin: 2.5rem;
+  }
+  .navbar-toggler{
+    font-size: 2rem;
+  }
+  div.heading{
+    padding-top: 25vh;
+    padding-bottom: 25vh;
+  }
   .heading{
     padding-top: 30%;
     padding-bottom: 56%;
   }
   .head{
-    text-align: left;
+    margin: auto;
+    text-align: center;
   }
   h1.head {
-    font-size: 4rem;
+    padding-top: 5%;
+    font-size: 7.5rem;
   }
+  h3.head{
+    padding-top: 10%;
+    font-size: 4rem;
+    text-align: center;
+  } 
+  h5.head{
+    font-size: 2rem;
+  }             
   .royal-nights h3{
     font-size: 2rem;
   }
@@ -142,9 +172,10 @@ h5.head{
     background-size: cover;
     text-align: center;
     padding: 30% 10%;
+    height: 100vh;
+    width: 100vw;
   }
   .royal-nights .col-lg-3{
     text-align: center;
   }
-  
 }
